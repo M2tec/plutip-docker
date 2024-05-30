@@ -28,11 +28,11 @@
           name = "image-root";
           paths = [ 
                     pkgs.bashInteractive 
-                    # pkgs.coreutils
-                    # plutip.inputs.cardano-node.packages.x86_64-linux.cardano-node
-                    # plutip.inputs.cardano-node.packages.x86_64-linux.cardano-cli
-                    # plutip.packages.x86_64-linux."plutip-core:exe:local-cluster"
-                    # ./entrypoint
+                    pkgs.coreutils
+                    plutip.inputs.cardano-node.packages.x86_64-linux.cardano-node
+                    plutip.inputs.cardano-node.packages.x86_64-linux.cardano-cli
+                    plutip.packages.x86_64-linux."plutip-core:exe:local-cluster"
+                    ./entrypoint
                     ];
         };
 
